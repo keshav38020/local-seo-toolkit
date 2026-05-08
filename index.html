@@ -18,11 +18,14 @@
             <h3>JSON-LD Schema Generator</h3>
             <p class="subtitle">Generate valid structured data instantly.</p>
             
-            <div class="form-group">
-                <label>Schema Type</label>
+           <div class="form-group">
+                <label>Select Schema Type</label>
                 <select id="schemaType" onchange="toggleFields()">
                     <option value="local">Local Business</option>
                     <option value="faq">FAQ Page</option>
+                    <option value="article">Article / Blog Post</option>
+                    <option value="product">Product</option>
+                    <option value="event">Event</option>
                 </select>
             </div>
 
@@ -31,11 +34,15 @@
                 <!-- Injected by JS -->
             </div>
 
-            <button class="btn" onclick="generateSchema()">Generate JSON-LD</button>
-            
             <div class="output-container">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <label style="margin: 0;">Generated JSON-LD</label>
+                </div>
                 <pre id="output">{"status": "Waiting for input..."}</pre>
-                <button class="btn btn-secondary" onclick="copyCode()">Copy Code</button>
+                <div style="display: flex; gap: 10px; margin-top: 15px;">
+                    <button class="btn" onclick="copyCode()">Copy Code</button>
+                    <a href="https://search.google.com/test/rich-results" target="_blank" class="btn btn-secondary" style="text-align: center; text-decoration: none;">Test in Google</a>
+                </div>
             </div>
         </div>
     </div>
