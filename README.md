@@ -1,19 +1,42 @@
 # 🏛️ Local SEO Toolkit
-**The Modern Minimalist Technical SEO Suite.**
+**The Modern Minimalist Technical SEO Suite by [MediaOfficers](https://mediaofficers.com/)**
 
-A high-performance, local-first web utility for SEO experts, marketers, and developers. Zero APIs, zero tracking, zero bloat. Just pure, fast performance designed with a "Quiet Luxury" UI.
+![GitHub stars](https://img.shields.io/github/stars/keshav38020/local-seo-toolkit?style=for-the-badge&color=4DA8DA)
+![License](https://img.shields.io/github/license/keshav38020/local-seo-toolkit?style=for-the-badge&color=1C2541)
 
-## ✨ Features
-- **Instant JSON-LD Schema:** Generate valid code for Local Businesses and FAQ pages.
-- **Privacy First:** 100% Client-side. No data is sent to external servers.
-- **Zero-Dependencies:** Built entirely on Vanilla JavaScript, HTML5, and CSS3. 
-- **Premium UI:** Smooth animations powered by GSAP.
+A high-performance, local-first web utility for SEO experts, marketers, and developers. Built with a "Light Navy Blue" corporate aesthetic, this tool eliminates the need for slow, ad-heavy third-party generators.
 
-## 🚀 Quick Start
-You don't even need to install this. Just open the `index.html` file in your browser, or visit the live link (add your GitHub pages link here).
-
-## 🛠️ Built by MediaOfficers
-This tool is maintained by **Keshav Sharma** and the team at **MediaOfficers**. We build high-performance Agentic AI workflows, web applications, and SEO systems. 
+Zero-Dependency Technical SEO Utility by **[MediaOfficers](https://mediaofficers.com/)**.
 
 ---
-⭐ **If this tool saves you time, please give this repository a star!**
+
+## ✨ Features
+- **Live JSON-LD Generation:** Code updates in real-time as you type. No "Generate" button required.
+- **The Big 5 Schema Types:** Full support for Local Business, FAQ, Article, Product, and Event schemas.
+- **Privacy First:** 100% Client-side. Your data never leaves your browser.
+- **Zero-Bloat:** Built with Vanilla JS and GSAP for ultra-smooth performance.
+- **Google-Ready:** Integrated "Test in Google" button for instant validation.
+
+## 🚀 Live Demo
+Access the toolkit immediately without installation:
+👉 **[https://keshav38020.github.io/local-seo-toolkit/](https://keshav38020.github.io/local-seo-toolkit/)**
+
+## 🛠️ Built & Maintained by MediaOfficers
+This tool is a product of the internal R&D team at **MediaOfficers**. We specialize in:
+*   **Search Everywhere Optimization (SEO)**
+*   **Agentic AI & Automation Systems**
+*   **High-Performance Web Development**
+*   **Content Marketing & Social Growth**
+
+Need a custom AI tool or a high-end SEO strategy? 
+🌐 **Visit [MediaOfficers.com](https://mediaofficers.com/)**
+
+---
+
+## 👨‍💻 Author
+**Keshav Sharma** (Rudhrah Keshav)
+*CEO at MediaOfficers*
+[LinkedIn](https://www.linkedin.com/in/rudhrah-keshav/) | [Twitter](https://x.com/rudhrah_keshav)
+
+---
+⭐ **If this tool saves your agency time, please give this repository a star! It helps us keep it free and updated.**
