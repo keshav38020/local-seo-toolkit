@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local SEO Toolkit | MediaOfficers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="animate-in">
+            <h1>Local SEO <span class="accent">Toolkit</span></h1>
+            <p>Zero-Dependency Technical SEO Utility by MediaOfficers</p>
+        </header>
+
+        <div class="card animate-in">
+            <h3>JSON-LD Schema Generator</h3>
+            <p class="subtitle">Generate valid structured data instantly.</p>
+            
+            <div class="form-group">
+                <label>Schema Type</label>
+                <select id="schemaType" onchange="toggleFields()">
+                    <option value="local">Local Business</option>
+                    <option value="faq">FAQ Page</option>
+                </select>
+            </div>
+
+            <!-- Dynamic Fields Container -->
+            <div id="dynamicFields">
+                <!-- Injected by JS -->
+            </div>
+
+            <button class="btn" onclick="generateSchema()">Generate JSON-LD</button>
+            
+            <div class="output-container">
+                <pre id="output">{"status": "Waiting for input..."}</pre>
+                <button class="btn btn-secondary" onclick="copyCode()">Copy Code</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
